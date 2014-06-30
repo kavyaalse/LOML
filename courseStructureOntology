@@ -1,0 +1,457 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#"
+     xml:base="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#assesses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#assesses">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isAssessedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#coveredBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#coveredBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#covers -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#covers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#fulfills -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#fulfills"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasCourse -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasCourse"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasParts -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasParts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasPrerequisite -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasPrerequisite"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasResources -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasResources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasSubtopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasSubtopic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasTopic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasUnit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isAssessedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isAssessedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isFulfilledBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isFulfilledBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isPartOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasParts"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasRanking -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasRanking"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isMandatoryActivity -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isMandatoryActivity">
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#obtainedScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#obtainedScore"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#passingScore -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#passingScore"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Activity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Activity">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isMandatoryActivity"/>
+                <owl:someValuesFrom rdf:resource="&xsd;boolean"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#fulfills"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#fulfills"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#covers"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Topic"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assignment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assignment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Course -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Course">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasUnit"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Unit"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Demo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Demo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Exam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Exam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasResources"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Resources"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasResources"/>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Resources"/>
+                        <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">0</owl:minQualifiedCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isFulfilledBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Activity"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isFulfilledBy"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Activity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isAssessedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#isAssessedBy"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Program">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasCourse"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Course"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Quiz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Quiz">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Resources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Seminars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Seminars">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Test">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Thesis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Thesis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Assessment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Topic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Topic">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#coveredBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Activity"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Unit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Unit">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasTopic"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#Topic"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#hasLearningObjective"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/kavya/ontologies/2014/1/untitled-ontology-75#LearningObjective"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
